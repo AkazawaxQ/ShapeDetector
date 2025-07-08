@@ -1,11 +1,11 @@
 # Real-Time Shape, Color, Area & Perimeter Detection using OpenCV
 This project is a Python-based real-time computer vision application that detects the shape, color, area, and perimeter of objects using a standard webcam. Leveraging the power of OpenCV and NumPy, the system analyzes live video frames to identify geometric features and display them directly on screen with visual feedback.
 
-📸 **Features**
-✅ Real-time object detection from webcam feed
-🟢 Shape recognition: Triangle, Rectangle, Square, Pentagon, Hexagon, Circle
-🎨 Color identification: Red, Yellow, Green, Blue, Purple
-📐 Geometric calculations: Area and perimeter of each detected object
+📸 **Features**  
+✅ Real-time object detection from webcam feed  
+🟢 Shape recognition: Triangle, Rectangle, Square, Pentagon, Hexagon, Circle  
+🎨 Color identification: Red, Yellow, Green, Blue, Purple  
+📐 Geometric calculations: Area and perimeter of each detected object  
 🧾 Annotates each object with its:
   - Shape
   - Color
