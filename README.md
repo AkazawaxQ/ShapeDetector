@@ -18,22 +18,28 @@ This project is a Python-based real-time computer vision application that detect
 - NumPy for array and numerical operations
 - HSV color space for more accurate color detection
 
-🖥️ How It Works
-1.Webcam Capture: The program reads video frames using cv2.VideoCapture(0).
-2.Preprocessing:
-  - Converts frames to grayscale, applies Gaussian Blur, then performs Canny Edge Detection.
+🖥️ How It Works  
+1.Webcam Capture:  
+  - The program reads video frames using cv2.VideoCapture(0).  
+
+2.Preprocessing:  
+  - Converts frames to grayscale, applies Gaussian Blur, then performs Canny Edge Detection.  
   - Converts original frame to HSV color space for color analysis.
-3.Contour Detection:
-  - Uses cv2.findContours to detect external shapes.
+
+3.Contour Detection:  
+  - Uses cv2.findContours to detect external shapes.  
   - Ignores small contours using an area threshold.
-4.Shape Classification:
-  - Analyzes the number of edges using cv2.approxPolyDP.
-  - Uses aspect ratio to differentiate between squares and rectangles.
-5.Color Classification:
-  - Uses the hue component of HSV to classify general color families.
-6.Visual Output:
-  - Annotates detected shapes with their name, color, area, and perimeter.
-  - Displays everything in a separate window titled "Shape".
+
+4.Shape Classification:  
+  - Analyzes the number of edges using cv2.approxPolyDP.  
+  - Uses aspect ratio to differentiate between squares and rectangles.  
+
+5.Color Classification:  
+  - Uses the hue component of HSV to classify general color families.  
+
+6.Visual Output:  
+  - Annotates detected shapes with their name, color, area, and perimeter.  
+  - Displays everything in a separate window titled "Shape".  
 
 📌 Notes
 -  The program uses basic thresholding and heuristics, and is designed as a simple educational prototype.
